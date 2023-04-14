@@ -16,7 +16,7 @@
   </head>
   <body>
      {% include 'nav.html' %}
-        <img class="img-fluid" id="banner" src="https://jovian-careers-website.tuladhar.repl.co/static/banner.jpg" >
+        <img class="img-fluid" id="banner" src="/static/banner.jpg" >
     <div class="container">
     <h1 class="text-center mt-4 mb-2">Jovian Careers</h1>
     <hr>
@@ -36,9 +36,9 @@
       {% endfor %}
       </div>
 
-    <div class="text-center mt-4 mb-2">
-      <button class="btn btn-primary btn-lg">Contact Us</button>
-    </div>
+        <div class="text-center mt-4 mb-2">
+            <a href="mailto:service@bishara.com?subject=Contact%20US&body=Name%3A%20%3Cname%3E%0D%0A%0D%0Amessage%3A%20%3Cplease%20type%20in%20your%20message%3E" type='button' class="btn btn-primary btn-lg">Contact Us</a>
+          </div>
 
 </div>
     {% include 'footer.html' %}
